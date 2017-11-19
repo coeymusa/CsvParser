@@ -1,7 +1,6 @@
 package Abide.corey.project;
 
 import java.io.IOException;
-import java.io.Reader;
 
 /**
  * Hello world!
@@ -34,7 +33,7 @@ public class Tool
 				switch (args[0]){
 				case "l":
 					Utility utilityCount = new Utility();
-					System.out.println("Total number of practices in " + args[1] + ":" + utilityCount.regionSurgeryCount(args[1],args[2]) );
+					System.out.println("Total number of practices in " + args[2] + ":" + utilityCount.regionSurgeryCount(args[1],args[2]) );
 					break;
 				case "a":
 					Utility utilityPerscriptionCost = new Utility();
@@ -48,7 +47,7 @@ public class Tool
 					Utility utilityRegion = new Utility();
 					System.out.println("Average price of Fluxocacillin vs national mean per region : \n" + utilityRegion.forEachRegionCSV(args[1],args[2], args[3]));   		
 					break;
-				case "?":
+				case "i":
 					Utility utilityPCT = new Utility();
 					System.out.println(utilityPCT.perscriptionsGiven(args[1],args[2]));   		
 					break;

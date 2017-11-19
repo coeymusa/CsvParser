@@ -72,11 +72,11 @@ public class UtilityTest {
 	
 	@Test
 	public void shouldReturnAveragePriceOfGivenPerscriptionInEachReggion() throws IOException{
-		String expected = "SUNDERLAND : £1.10 Which is 0.22x the national average\n"
-				+ "CARDIFF : £1.60 Which is 0.32x the national average\n"
-				+ "LONDON : £5.20 Which is 1.03x the national average\n"
+		String expected = "NEWCASTLE : £10.10 Which is 2.01x the national average\n"
+				+ "SUNDERLAND : £1.10 Which is 0.22x the national average\n"
 				+ "CLEVELAND : £7.80 Which is 1.55x the national average\n"
-				+ "NEWCASTLE : £10.10 Which is 2.01x the national average\n"
+				+ "LONDON : £5.20 Which is 1.03x the national average\n"
+				+ "CARDIFF : £1.60 Which is 0.32x the national average\n"
 				+ "National average cost of a perscription £5.03";
 		
 		String result = underTest.forEachRegionCSV("src/test/resources/RegionSurgeryTest.csv", "src/test/resources/RegionTranscationTest.csv", "Pantoprazole");

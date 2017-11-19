@@ -244,11 +244,11 @@ public class Utility {
 
 		Map<String, BigDecimal> averagedRegionPerscriptionMap = divideRegionTotalByCount(regionTotalCostMap,regionTotalCountMap);
 
-		Map<String, BigDecimal> averagedSortedRegionPerscriptionMap  = ImmutableSortedMap.copyOf(averagedRegionPerscriptionMap, Ordering.natural().onResultOf(Functions.forMap(averagedRegionPerscriptionMap)));
+		//Map<String, BigDecimal> averagedSortedRegionPerscriptionMap  = ImmutableSortedMap.copyOf(averagedRegionPerscriptionMap, Ordering.natural().onResultOf(Functions.forMap(averagedRegionPerscriptionMap)));
 
 		BigDecimal nationalAverageCostOfPerscription = generateNationalAverage(regionTotalCostMap,regionTotalCountMap);
 
-		return generateResultsForRegion(averagedSortedRegionPerscriptionMap,nationalAverageCostOfPerscription);
+		return generateResultsForRegion(averagedRegionPerscriptionMap,nationalAverageCostOfPerscription);
 	}
 
 
