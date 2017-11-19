@@ -1,0 +1,16 @@
+ SHA,	PCT	PRACTICE,	BNF CODE,	BNF NAME,                              	ITEMS,	NIC,        	ACT, COST,   	PERIOD                                 
+Q30,	5D7,	A86001,	0703010F1,	Pantoprazole  ,         	1,	1.89,	5.20,	201109
+Q30,	5D7,	A86002,	0703010F2,	Cimetidine                              ,         	1,	1.89,	1.10,	201109
+Q30,	5D7,	A86002,	0703010F1,	Pantoprazole                              ,         	1,	1.89,	10.40,	201109
+Q30,	5D7,	A86003,	0703010F1,	Pantoprazole,         	1,	1.89,	1.10,	201109
+Q30,	5D7,	A86003,	0703010F2,	Cimetidine,         	1,	1.89,	1.10,	201109
+Q30,	5D7,	A86003,	0703010F3,	Omeprazole,         	1,	1.89,	1.10,	201109
+Q30,	5D7,	A86004,	0703010F1,	Pantoprazole                          ,         	1,	1.89,	10.10,	201109
+Q30,	5D7,	A86004,	0703010F2,	Cimetidine                          ,         	1,	1.89,	1.10,	201109
+Q30,	5D7,	A86004,	0703010F3,	Omeprazole                          ,         	1,	1.89,	1.10,	201109
+Q30,	5D7,	A86004,	0703010F4,	Peppermint Oil                          ,         	1,	1.89,	1.10,	201109
+Q30,	5D7,	A86005,	0703010F1,	Pantoprazole         ,         	1,	1.89,	1.10,	201109
+Q30,	5D7,	A86005,	0703010F1,	Pantoprazole         ,         	1,	1.89,	2.10,	201109
+Q30,	5D7,	A86005,	0703010F3,	Omeprazole         ,         	1,	1.89,	1.10,	201109
+Q30,	5D7,	A86005,	0703010F4,	Peppermint Oil         ,         	1,	1.89,	1.10,	201109
+Q30,	5D7,	A86005,	0703010F5,	Simeticone         ,         	1,	1.89,	1.10,	201109

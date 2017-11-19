@@ -2,6 +2,11 @@ package Abide.corey.project.model;
 
 import java.math.BigDecimal;
 
+/**
+ * A model for representing a postcode with an attached value
+ * @author corey
+ *
+ */
 public class PostCodeSpend {
 
 
